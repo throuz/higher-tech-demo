@@ -346,7 +346,7 @@ const LiveDataVirtualList = () => {
   );
 
   return (
-    <div className="p-6 bg-slate-900 min-h-screen">
+    <div className="p-6 bg-slate-900">
       <div className="max-w-4xl mx-auto">
         <div className="mb-4">
           <div className="flex items-center justify-between mb-3">
