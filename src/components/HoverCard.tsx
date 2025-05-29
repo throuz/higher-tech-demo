@@ -89,7 +89,7 @@ const HoverCard = ({ children }: HoverCardProps) => {
         ease: "none",
       });
 
-      // Create hover animations
+      // Create hover animations with drop-shadow glow
       const enterAnimation = gsap
         .timeline({ paused: true })
         .to(blur, {
@@ -111,6 +111,8 @@ const HoverCard = ({ children }: HoverCardProps) => {
           card,
           {
             y: -10,
+            filter:
+              "drop-shadow(0 0 20px rgba(100, 108, 255, 0.8)) drop-shadow(0 0 40px rgba(97, 218, 251, 0.6)) drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3))",
             duration: 0.4,
             ease: "power2.out",
           },
