@@ -15,12 +15,14 @@
     "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-window": "^1.8.11",
     "tailwindcss": "^4.1.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
+    "@types/react-window": "^1.8.8",
     "@vitejs/plugin-react-swc": "^3.10.0",
     "eslint": "^9.27.0",
     "eslint-plugin-react-hooks": "^5.2.0",

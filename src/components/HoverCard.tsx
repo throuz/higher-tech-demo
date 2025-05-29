@@ -168,7 +168,7 @@ const HoverCard = ({ children }: HoverCardProps) => {
   return (
     <div
       ref={container}
-      className="relative w-[300px] p-5 rounded-2xl bg-gradient-to-br from-[#646cffaa] to-[#61dafbaa] cursor-pointer overflow-hidden"
+      className="relative p-5 rounded-2xl bg-gradient-to-br from-[#646cffaa] to-[#61dafbaa] cursor-pointer overflow-hidden"
     >
       {/* Animated wave background */}
       <div
